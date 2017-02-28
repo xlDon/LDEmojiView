@@ -1,2 +1,7 @@
 # LDEmojiView
-的
+一个emoji表情选择控件，可以自定义增减emoji表情编码以及转码。</br>
+主要是为了兼容后台数据库存的字段并不能直接解析为emoji表情输出，做了一层转码。
+
+LDEmojiView兼容storyboard和xib，可以直接拖一个UIView修改类名后拖拽delegate。这样能减少代码污染，然后直接使用代理方法插入emoji表情或者删除表情以及文字。
+
+如有问题可直接直接联系我。
