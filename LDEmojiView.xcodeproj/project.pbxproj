@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C99B1D921E6517C800433D5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C99B1D911E6517C800433D5C /* main.m */; };
+		C99B1D951E6517C800433D5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C99B1D941E6517C800433D5C /* AppDelegate.m */; };
+		C99B1D981E6517C800433D5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C99B1D971E6517C800433D5C /* ViewController.m */; };
+		C99B1D9B1E6517C800433D5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99B1D991E6517C800433D5C /* Main.storyboard */; };
+		C99B1D9D1E6517C800433D5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99B1D9C1E6517C800433D5C /* Assets.xcassets */; };
+		C99B1DA01E6517C800433D5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99B1D9E1E6517C800433D5C /* LaunchScreen.storyboard */; };
+		C99B1DAA1E65192600433D5C /* LDEmojiObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C99B1DA91E65192600433D5C /* LDEmojiObject.m */; };
+		C99B1DAD1E651A7600433D5C /* LDEmojiPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C99B1DAC1E651A7600433D5C /* LDEmojiPageView.m */; };
+		C99B1DB01E651CC300433D5C /* LDEmojiParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C99B1DAF1E651CC300433D5C /* LDEmojiParser.m */; };
+		C99B1DB31E65226800433D5C /* LDEmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = C99B1DB21E65226800433D5C /* LDEmojiView.m */; };
+		C99B1DB61E65457200433D5C /* LDZoomAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C99B1DB51E65457200433D5C /* LDZoomAnimationButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C99B1D8D1E6517C800433D5C /* LDEmojiView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDEmojiView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99B1D911E6517C800433D5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C99B1D931E6517C800433D5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C99B1D941E6517C800433D5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C99B1D961E6517C800433D5C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C99B1D971E6517C800433D5C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C99B1D9A1E6517C800433D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C99B1D9C1E6517C800433D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C99B1D9F1E6517C800433D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C99B1DA11E6517C800433D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99B1DA81E65192600433D5C /* LDEmojiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDEmojiObject.h; sourceTree = "<group>"; };
+		C99B1DA91E65192600433D5C /* LDEmojiObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDEmojiObject.m; sourceTree = "<group>"; };
+		C99B1DAB1E651A7600433D5C /* LDEmojiPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDEmojiPageView.h; sourceTree = "<group>"; };
+		C99B1DAC1E651A7600433D5C /* LDEmojiPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDEmojiPageView.m; sourceTree = "<group>"; };
+		C99B1DAE1E651CC300433D5C /* LDEmojiParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDEmojiParser.h; sourceTree = "<group>"; };
+		C99B1DAF1E651CC300433D5C /* LDEmojiParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDEmojiParser.m; sourceTree = "<group>"; };
+		C99B1DB11E65226800433D5C /* LDEmojiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDEmojiView.h; sourceTree = "<group>"; };
+		C99B1DB21E65226800433D5C /* LDEmojiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDEmojiView.m; sourceTree = "<group>"; };
+		C99B1DB41E65457200433D5C /* LDZoomAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDZoomAnimationButton.h; sourceTree = "<group>"; };
+		C99B1DB51E65457200433D5C /* LDZoomAnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDZoomAnimationButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C99B1D8A1E6517C800433D5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C99B1D841E6517C800433D5C = {
+			isa = PBXGroup;
+			children = (
+				C99B1D8F1E6517C800433D5C /* LDEmojiView */,
+				C99B1D8E1E6517C800433D5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C99B1D8E1E6517C800433D5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C99B1D8D1E6517C800433D5C /* LDEmojiView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C99B1D8F1E6517C800433D5C /* LDEmojiView */ = {
+			isa = PBXGroup;
+			children = (
+				C99B1DA71E65190100433D5C /* LDEmojiView */,
+				C99B1D931E6517C800433D5C /* AppDelegate.h */,
+				C99B1D941E6517C800433D5C /* AppDelegate.m */,
+				C99B1D961E6517C800433D5C /* ViewController.h */,
+				C99B1D971E6517C800433D5C /* ViewController.m */,
+				C99B1D991E6517C800433D5C /* Main.storyboard */,
+				C99B1D9C1E6517C800433D5C /* Assets.xcassets */,
+				C99B1D9E1E6517C800433D5C /* LaunchScreen.storyboard */,
+				C99B1DA11E6517C800433D5C /* Info.plist */,
+				C99B1D901E6517C800433D5C /* Supporting Files */,
+			);
+			path = LDEmojiView;
+			sourceTree = "<group>";
+		};
+		C99B1D901E6517C800433D5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C99B1D911E6517C800433D5C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C99B1DA71E65190100433D5C /* LDEmojiView */ = {
+			isa = PBXGroup;
+			children = (
+				C99B1DA81E65192600433D5C /* LDEmojiObject.h */,
+				C99B1DA91E65192600433D5C /* LDEmojiObject.m */,
+				C99B1DAE1E651CC300433D5C /* LDEmojiParser.h */,
+				C99B1DAF1E651CC300433D5C /* LDEmojiParser.m */,
+				C99B1DAB1E651A7600433D5C /* LDEmojiPageView.h */,
+				C99B1DAC1E651A7600433D5C /* LDEmojiPageView.m */,
+				C99B1DB11E65226800433D5C /* LDEmojiView.h */,
+				C99B1DB21E65226800433D5C /* LDEmojiView.m */,
+				C99B1DB41E65457200433D5C /* LDZoomAnimationButton.h */,
+				C99B1DB51E65457200433D5C /* LDZoomAnimationButton.m */,
+			);
+			path = LDEmojiView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C99B1D8C1E6517C800433D5C /* LDEmojiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99B1DA41E6517C800433D5C /* Build configuration list for PBXNativeTarget "LDEmojiView" */;
+			buildPhases = (
+				C99B1D891E6517C800433D5C /* Sources */,
+				C99B1D8A1E6517C800433D5C /* Frameworks */,
+				C99B1D8B1E6517C800433D5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LDEmojiView;
+			productName = LDEmojiView;
+			productReference = C99B1D8D1E6517C800433D5C /* LDEmojiView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C99B1D851E6517C800433D5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = xlDong;
+				TargetAttributes = {
+					C99B1D8C1E6517C800433D5C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C99B1D881E6517C800433D5C /* Build configuration list for PBXProject "LDEmojiView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C99B1D841E6517C800433D5C;
+			productRefGroup = C99B1D8E1E6517C800433D5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C99B1D8C1E6517C800433D5C /* LDEmojiView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C99B1D8B1E6517C800433D5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99B1DA01E6517C800433D5C /* LaunchScreen.storyboard in Resources */,
+				C99B1D9D1E6517C800433D5C /* Assets.xcassets in Resources */,
+				C99B1D9B1E6517C800433D5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C99B1D891E6517C800433D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99B1D981E6517C800433D5C /* ViewController.m in Sources */,
+				C99B1DAA1E65192600433D5C /* LDEmojiObject.m in Sources */,
+				C99B1D951E6517C800433D5C /* AppDelegate.m in Sources */,
+				C99B1DB61E65457200433D5C /* LDZoomAnimationButton.m in Sources */,
+				C99B1DB31E65226800433D5C /* LDEmojiView.m in Sources */,
+				C99B1DAD1E651A7600433D5C /* LDEmojiPageView.m in Sources */,
+				C99B1D921E6517C800433D5C /* main.m in Sources */,
+				C99B1DB01E651CC300433D5C /* LDEmojiParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C99B1D991E6517C800433D5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99B1D9A1E6517C800433D5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C99B1D9E1E6517C800433D5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99B1D9F1E6517C800433D5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C99B1DA21E6517C800433D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C99B1DA31E6517C800433D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C99B1DA51E6517C800433D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LDEmojiView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xlDong.LDEmojiView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C99B1DA61E6517C800433D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LDEmojiView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xlDong.LDEmojiView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C99B1D881E6517C800433D5C /* Build configuration list for PBXProject "LDEmojiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99B1DA21E6517C800433D5C /* Debug */,
+				C99B1DA31E6517C800433D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99B1DA41E6517C800433D5C /* Build configuration list for PBXNativeTarget "LDEmojiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99B1DA51E6517C800433D5C /* Debug */,
+				C99B1DA61E6517C800433D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C99B1D851E6517C800433D5C /* Project object */;
+}
